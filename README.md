@@ -1,4 +1,11 @@
 ## Bobabuddy
+###Program Specification
+Our application is a product comparison system that is designed for students from University of Toronto. The purpose of this program is to keep track of prices and ratings for bubble teas, sort them based on a user supplied parameter (price, distance or rating). The item list will then be displayed via each individual item’s store. With this, the user can find their desired bubble tea, along with its corresponding store location and pricing.
+
+Within the program, there are four main types of object: item, store, user, and rating. Each item in the program is associated with a name, an id, a price, a category, an image url, the shop in which it is being sold, a list of ratings of this item, and its average rating. Each store is associated with a store name, an id, an image url, a list of items (a menu), a location, a list of ratings and a corresponding average rating. Each user is associated with a name, an id, an email, a password, a set of ratings that the user has made, and the type of privilege the user has.
+
+Apart from using the application for its intended purpose (sorting items), admin users accessing the program also have the ability to create items, stores, and ratings. Admins may also delete or modify these entities at will.
+
 Phase 2 notes:
 
  - The REST server is now hosted on an Azure Cloud virtual machine at `http://20.124.182.63:8080`.
